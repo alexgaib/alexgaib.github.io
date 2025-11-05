@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио PHP-разработчика</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <!-- Header -->
+    <header class="mb-16 text-center">
+      <h1 class="text-4xl font-bold mb-4">Алексей Гайбович</h1>
+      <p class="text-xl text-gray-400">Backend-разработчик PHP / Symfony / Clean Architecture</p>
+      <p class="mt-4 text-gray-400">Проектирую и развиваю надёжные backend-системы для высоконагруженных проектов в госсекторе, логистике и ритейле.</p>
+    </header>
+
+    <!-- Projects -->
+    <section class="space-y-10 mb-16">
+      <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2">Опыт</h2>
+
+      <!-- Ленинградская область -->
+      <article class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Портал Ленинградской области</h3>
+        <p class="text-gray-400 mb-3">Ведущий разработчик / Архитектор | PHP 8.3, Symfony, DDD, Clean Architecture</p>
+        <ul class="list-disc ml-5 space-y-1 text-gray-300">
+          <li>Построил архитектуру монолита на PHP 8.3 + Symfony, реализовал прокси для Bitrix.</li>
+          <li>Внедрил CI/CD для dev-сред с Docker Compose и деплой на prod через Ansible.</li>
+          <li>Реализовал авторизацию и синхронизацию пользователей через ЕСИА и КриптоПро.</li>
+          <li>Настроил обработку и отправку обращений в СЭД и интеграцию с телефонным справочником ЛО.</li>
+          <li>Минимизировал использование Doctrine ORM, заменив на маппинг через native queries в DTO.</li>
+          <li>Разработал 2000+ проверок API, контролирующих структуру запросов и ответов.</li>
+        </ul>
+      </article>
+
+      <!-- МТС -->
+      <article class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">МТС</h3>
+        <p class="text-gray-400 mb-3">Backend-разработчик | PHP, Go, Symfony, Kafka, jMeter</p>
+        <ul class="list-disc ml-5 space-y-1 text-gray-300">
+          <li>Работа в команде промо и контента (6 сервисов из 40+ микросервисной архитектуры).</li>
+          <li>Реализовал сервис отзывов (PHP, Symfony) и SEO-шаблонизатор (Go).</li>
+          <li>Настроил KrakenD в качестве API Gateway.</li>
+          <li>Проводил нагрузочные тесты jMeter, оптимизировав работу корзины и модальных окон (ускорение в 1.5x).</li>
+        </ul>
+      </article>
+
+      <!-- КАМАЗ -->
+      <article class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">КАМАЗ</h3>
+        <p class="text-gray-400 mb-3">Старший разработчик | PHP 8.2, Symfony, распределённый монолит</p>
+        <ul class="list-disc ml-5 space-y-1 text-gray-300">
+          <li>Разработка и поддержка компонентов и бандлов крупного монолита.</li>
+          <li>Проектирование архитектурных решений и контроль качества кода.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Skills -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">Навыки</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-lg font-semibold mb-2 text-gray-300">Hard Skills</h3>
+          <ul class="list-disc ml-5 space-y-1 text-gray-300">
+            <li>PHP 7.3–8.3, Symfony 6.2, Zend Framework, CakePHP</li>
+            <li>Golang, TypeScript, Vue, React</li>
+            <li>MySQL, PostgreSQL, Redis, Elasticsearch, Meilisearch</li>
+            <li>Kafka, RabbitMQ, gRPC, REST, JWT</li>
+            <li>Docker, Kubernetes, GitLab CI/CD, Linux</li>
+            <li>Grafana, Kibana, jMeter</li>
+            <li>DDD, Clean Architecture, CQRS</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2 text-gray-300">Soft Skills</h3>
+          <ul class="list-disc ml-5 space-y-1 text-gray-300">
+            <li>Ответственность и внимание к деталям</li>
+            <li>Командная работа и наставничество</li>
+            <li>Системное и аналитическое мышление</li>
+            <li>Самоорганизация и инициативность</li>
+            <li>Опыт в распределённых командах (10–50+ человек)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stack Highlights -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">Технологический стек</h2>
+      <div class="flex flex-wrap gap-3 text-sm text-gray-200">
+        <span class="bg-gray-800 px-3 py-1 rounded-full">PHP 8.3</span>
+        <span class="bg-gray-800 px-3 py-1 rounded-full">Symfony</span>
+        <span class="bg-gray-800 px-3 py-1 rounded-full">Docker</span>
+        <span class="bg-gray-800 px-3 py-1 rounded-full">Kubernetes</span>
+        <span class="bg-gray-800 px-3 py-1 rounded-full">GitLab CI</span>
+        <span class="bg-gray-800 px-3 py-1 rounded-full">DDD</span>
+        <span class="bg-gray-800 px-3 py-1 rounded-full">Clean Architecture</span>
+        <span class="bg-gray-800 px-3 py-1 rounded-full">Kafka</span>
+        <span class="bg-gray-800 px-3 py-1 rounded-full">gRPC</span>
+        <span class="bg-gray-800 px-3 py-1 rounded-full">Ansible</span>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm border-t border-gray-800 pt-6">
+      <p>© 2025 Алексей Гайбович</p>
+      <p class="mt-1">Контакты появятся позже</p>
+    </footer>
+  </main>
+</body>
+</html>
