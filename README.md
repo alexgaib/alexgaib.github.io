@@ -1,2 +1,0 @@
-# alexgaib.github.io
-cv
